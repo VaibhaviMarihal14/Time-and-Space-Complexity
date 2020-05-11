@@ -1,0 +1,45 @@
+                             Time_Complexity
+
+1.	for(i=0; i<n; i++)	--> O(n)
+
+2.	for(i=0; i<n; i=i+2)	--> O(n)
+
+3.	for(i=n; i>1; i--)	--> O(n)
+
+4.	for(i=1; i<n; i=i*2)	--> O(log2 n)   //2->base 2
+
+5.	for(i=1; i<n; i=i*3)	--> O(log3 n)   //3->base 3
+
+6.	for(i=n; i>1; i=i/2)	--> O(log2 n)	//2->base 2
+
+
+
+
+
+				Nested Loops.
+
+If there are 2 nested for loops as shown below, then Time Complexity will be equal to O(N^2)
+ex: 
+for(i=0; i<n; i++)
+{
+  for(j=0; j<m; j++)
+  {
+	//statement
+  }
+}
+
+
+
+If there are 3 nested for loops as shown below, then Time Complexity will be equal to O(N^3)
+ex: 
+for(i=0; i<n; i++)
+{
+  for(j=0; j<m; j++)
+  {
+    for(k=0; k<p; k++)
+     {
+	//statement
+     }
+  }
+}			
+

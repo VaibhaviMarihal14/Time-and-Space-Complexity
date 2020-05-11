@@ -1,0 +1,104 @@
+Question 1.
+
+Linear search scans one item at a time, without jumping to any item.
+
+Worst complexity: O(n)
+The worst case is that you have to look at every item.
+That gives us an upper bound of N comparisons.
+
+Average complexity: O(n)
+
+Space complexity: O(1)
+The best case is that the item is the first place you look.
+That gives us a lower bound of 1
+
+Worst-case space complexity: O(1) iterative
+
+
+
+
+
+
+
+
+Question 2.
+
+Time Complexity:
+O(log2n)
+
+Time Complexity of Binary Search Algorithm is O(log2n).
+Here, n is the number of elements in the sorted linear array.
+
+Space Complexity: O(1)
+
+
+
+
+
+
+
+
+
+
+Question 3.
+
+Time Complexity:
+Worst case: O(n)
+Best case: O(1)
+
+
+
+
+
+
+
+
+Question 4.
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(1)
+
+
+
+
+
+
+
+
+
+Question 5.
+
+Time Complexity:
+
+Worst Case: O(n*^2)
+i.e if sorted list is given as input.
+
+Best Case: O(n*Log n)
+i.e if list is divided into two equal halves.
+
+Space Complexity:
+O(log n)
+
+
+
+
+
+
+
+
+
+Question 6.
+
+O(n*Log n)
+
+Time complexity of Merge Sort is O(n*Log n),
+in all the 3 cases (worst, average and best)
+as merge sort always divides the array in two halves,
+and takes linear time to merge two halves.
+
+Space Complexity:
+O(n)
+including with arrays. 
