@@ -5,5 +5,53 @@ O(n^3)
 
 
 
+Question 2).
+
+B)
 
 
+
+Question 3).
+
+D)
+If we use median as a pivot element, then the recurrence for all cases
+becomes T(n) = 2T(n/2) + O(n) The above recurrence can be solved using
+Master Method. It falls in case 2 of master method.
+
+
+Question 4).
+
+C)
+
+
+
+Question 5).
+
+D)
+
+Insertion sort takes linear time when input array is sorted or almost sorted (maximum 1 or 2 elements are misplaced). 
+All other sorting algorithms mentioned above will take more than lienear time in their typical implementation.
+
+
+
+
+Question 6).
+
+B)
+Selection sort makes O(n) swaps which is minimum among all sorting algorithms mentioned above.
+
+
+
+
+Question 7).
+C)
+Question 10 Explanation: 
+The bubble sort is at its best if the input data is sorted. i.e. If the input data is sorted in the same order 
+as expected output. This can be achieved by using one boolean variable. The boolean variable is used to check 
+whether the values are swapped at least once in the inner loop.
+
+
+
+Question 8).
+
+A)Worst case complexities for the above sorting algorithms are as follows: Merge Sort — nLogn Bubble Sort — n^2 Quick Sort — n^2 Selection Sort — n^2

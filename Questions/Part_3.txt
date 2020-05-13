@@ -24,5 +24,125 @@ static void multiply(int mat1[][],
 
 
 
-2. Time complexity of Prim's algorithm:
+2. What is recurrence for worst case of QuickSort and what is the time complexity in Worst case?
+A)
+Recurrence is T(n) = T(n-2) + O(n) and time complexity is O(n^2)
+
+B)
+Recurrence is T(n) = T(n-1) + O(n) and time complexity is O(n^2)
+
+C)
+Recurrence is T(n) = 2T(n/2) + O(n) and time complexity is O(nLogn)
+
+D)
+Recurrence is T(n) = T(n/10) + T(9n/10) + O(n) and time complexity is O(nLogn)
+
+
+
+
+
+
+
+
+3.Suppose we have a O(n) time algorithm that finds median of an unsorted array. 
+Now consider a QuickSort implementation where we first find median using the above algorithm, 
+then use median as pivot. What will be the worst case time complexity of this modified QuickSort.
+A)
+O(n^2 Logn)
+
+B)
+O(n^2)
+
+C)
+O(n Logn Logn)
+
+D)
+O(nLogn)
+
+
+
+
+
+
+
+4.Which of the following is not a stable sorting algorithm in its typical implementation.
+A)
+Insertion Sort
+
+B)
+Merge Sort
+
+C)
+Quick Sort
+
+D)
+Bubble Sort
+
+
+
+
+
+5.Which of the following sorting algorithms in its typical implementation gives best performance 
+when applied on an array which is sorted or almost sorted (maximum 1 or two elements are misplaced).
+A)
+Quick Sort
+
+B)
+Heap Sort
+
+C)
+Merge Sort
+
+D)
+Insertion Sort
+
+
+
+
+
+6.Consider a situation where swap operation is very costly. Which of the following sorting algorithms 
+should be preferred so that the number of swap operations are minimized in general?
+A)
+Heap Sort
+
+B)
+Selection Sort
+
+C)
+Insertion Sort
+
+D)
+Merge Sort
+
+
+
+
+
+
+7.What is the best time complexity of bubble sort?
+A)
+N^2
+
+B)
+NlogN
+
+C)
+N
+
+D)
+N(logN)^2
+
+
+
+
+
+8.Which of the following sorting algorithms has the lowest worst-case complexity?
+A)
+Merge Sort
+B)
+Bubble Sort
+C)
+Quick Sort
+D)
+Selection Sort
 
